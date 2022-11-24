@@ -66,15 +66,11 @@ Enter input's number of bits(Enter 0 to exit the test):4
 Enter the input:0011
 Output:0
 ```  
-# Compile & Run
+# How to run
 
 ```sh
-# Compile
-cd xor_in_nn/
-gcc -o main.c -lm layer.c neuron.c
-
-# Run
-./a.out
+$make
+$./bin/run
 ```
 # Reference
 [Code reference](https://medium.com/analytics-vidhya/building-neural-network-framework-in-c-using-backpropagation-8ad589a0752d) 
